@@ -1,6 +1,6 @@
 {
   "name": "@dynamicideas/news-on-kindle-data-types",
-  "version": "0.8.5",
+  "version": "0.8.6",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
@@ -44,7 +44,7 @@
     ]
   },
   "dependencies": {
-    "@dynamicideas/base-types": "^0.8.14"
+    "@dynamicideas/base-types": "^0.8.15"
   },
   "devDependencies": {
     "@commitlint/cli": "18.6.0",
