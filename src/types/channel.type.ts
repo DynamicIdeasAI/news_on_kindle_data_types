@@ -2,9 +2,9 @@ import { BaseModelType } from '@dynamicideas/base-types';
 
 interface ChannelDataType extends BaseModelType {
   /**
-   * The name of the channel.
+   * The title of the channel.
    */
-  name: string;
+  title: string;
   /**
    * The description of the channel.
    */
