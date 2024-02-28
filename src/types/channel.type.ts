@@ -1,6 +1,6 @@
-import { BaseDataType } from '@dynamicideas/base-types';
+import { BaseModelType } from '@dynamicideas/base-types';
 
-interface ChannelDataType extends BaseDataType {
+interface ChannelDataType extends BaseModelType {
   /**
    * The name of the channel.
    */
@@ -18,13 +18,9 @@ interface ChannelDataType extends BaseDataType {
    */
   isPublished?: boolean;
   /**
-   * The date this channel was created.
+   * User ID of the creator of this channel info.
    */
-  createdAt: Date;
-  /**
-   * The date this channel was last updated.
-   */
-  updatedAt?: Date;
+  creatorId: string;
 }
 
 export type { ChannelDataType };
