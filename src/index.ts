@@ -1,1 +1,2 @@
-export * from './types/base/base.type';
+export * from './types/base.type';
+export * from './types/content.type';
