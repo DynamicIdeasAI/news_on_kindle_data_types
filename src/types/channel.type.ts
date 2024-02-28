@@ -20,7 +20,7 @@ interface ChannelDataType extends BaseModelType {
   /**
    * User ID of the creator of this channel info.
    */
-  creatorId: string;
+  creatorId?: string;
 }
 
 export type { ChannelDataType };
