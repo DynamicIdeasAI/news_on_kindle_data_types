@@ -27,4 +27,19 @@ interface ChannelDataType extends BaseModelType {
   categoryIds?: string[];
 }
 
-export type { ChannelDataType };
+interface ChannelSubscriptionDataType extends BaseModelType {
+  /**
+   * The user ID of the subscriber.
+   */
+  userId: string;
+  /**
+   * The channel ID of the subscription.
+   */
+  channelId: string;
+  /**
+   * The index in the channel subscription list of the user.
+   */
+  subscriptionIndex?: number;
+}
+
+export type { ChannelDataType, ChannelSubscriptionDataType };
