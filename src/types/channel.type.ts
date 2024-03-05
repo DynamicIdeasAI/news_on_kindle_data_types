@@ -14,6 +14,10 @@ interface ChannelDataType extends BaseModelType {
    */
   url: string;
   /**
+   * The url of the channel's RSS feed, reommended.
+   */
+  rssUrl?: string;
+  /**
    * Is this channel published for all users.
    */
   isPublished?: boolean;
