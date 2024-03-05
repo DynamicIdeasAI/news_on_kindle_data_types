@@ -5,7 +5,7 @@ interface RssEntityDataType extends BaseDataType {
   title: string;
   link: string;
   description?: string;
-  published: Date;
+  publishedAt: Date;
 }
 
 interface RssDataType extends BaseDataType {
@@ -14,7 +14,7 @@ interface RssDataType extends BaseDataType {
   description?: string;
   generator?: string;
   language?: string;
-  published?: Date;
+  publishedAt?: Date;
   entries?: RssEntityDataType[];
 }
 
