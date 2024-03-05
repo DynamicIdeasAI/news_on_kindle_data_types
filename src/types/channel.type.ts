@@ -12,7 +12,7 @@ interface ChannelDataType extends BaseModelType {
   /**
    * The url of the channel homepage.
    */
-  url: string;
+  url?: string;
   /**
    * The url of the channel's RSS feed, reommended.
    */
