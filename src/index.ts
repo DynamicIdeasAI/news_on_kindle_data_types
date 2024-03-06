@@ -4,3 +4,4 @@ export * from './types/category.type';
 export * from './types/notification.type';
 export * from './types/post.type';
 export * from './types/rss.type';
+export * from './types/channel-dom-parser.type';
