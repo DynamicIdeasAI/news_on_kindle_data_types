@@ -5,7 +5,7 @@ interface ChannelDomParserDataType extends BaseModelType {
   titleSelector: string;
   authorsSelector?: string;
   summarySelector?: string;
-  articleSelector: string;
+  contentSelector: string;
   publishedAtSelector?: string;
   themeImageSelector?: string;
   /**
