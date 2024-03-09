@@ -3,7 +3,7 @@ import { BaseModelType } from '@dynamicideas/base-types';
 interface PostDataType extends BaseModelType {
   channelId: string;
   url: string;
-  originalHtmlContent: string;
+  originalHtmlContent?: string;
   title: string;
   content: string;
   summary?: string;
