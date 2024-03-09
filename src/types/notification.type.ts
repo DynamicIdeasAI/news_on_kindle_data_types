@@ -1,5 +1,5 @@
 import type { BaseDataType } from '@dynamicideas/base-types';
-import { ChannelDataType, ChannelSubscriptionDataType } from './channel.type';
+import type { ChannelDataType, ChannelSubscriptionDataType } from './channel.type';
 
 export const NotificationWildcard = '*';
 

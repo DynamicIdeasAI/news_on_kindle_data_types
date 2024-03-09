@@ -1,7 +1,7 @@
 import type { BaseModelType } from '@dynamicideas/base-types';
 
 interface EmailDataType extends BaseModelType {
-  from: string;
+  fromEmail: string;
   toUserId: string;
   toUserKindleEmail: string;
   subject?: string;

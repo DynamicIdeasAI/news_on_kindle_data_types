@@ -1,4 +1,4 @@
-import { BaseModelType } from '@dynamicideas/base-types';
+import type { BaseModelType } from '@dynamicideas/base-types';
 
 interface ChannelNewsParserDataType extends BaseModelType {
   channelId: string;
