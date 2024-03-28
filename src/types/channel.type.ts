@@ -18,6 +18,10 @@ interface ChannelDataType extends BaseModelType {
    */
   rssUrl?: string;
   /**
+   * The cover image url of the channel.
+   */
+  coverImageUrl?: string;
+  /**
    * Is this channel published for all users.
    */
   isPublished?: boolean;
