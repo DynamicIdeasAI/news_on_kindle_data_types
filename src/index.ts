@@ -6,3 +6,4 @@ export * from './types/post.type';
 export * from './types/rss.type';
 export * from './types/channel-news-parser.type';
 export * from './types/email.type';
+export * from './constants/index.constant';
