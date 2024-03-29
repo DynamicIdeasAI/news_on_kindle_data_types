@@ -33,6 +33,10 @@ interface ChannelDataType extends BaseModelType {
    * The category IDs of this channel.
    */
   categoryIds?: string[];
+  /**
+   * The index of the channel in refreshing queue. it's between 0 to 59, when refreshing starts, it always indicate an index and only refresh the channel with the index.
+   */
+  refreshIndex: number;
 }
 
 interface ChannelSubscriptionDataType extends BaseModelType {
