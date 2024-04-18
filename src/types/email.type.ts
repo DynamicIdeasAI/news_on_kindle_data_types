@@ -6,7 +6,7 @@ interface EmailDataType extends BaseModelType {
   cc?: string[];
   subject: string;
   html: string;
-  attachments: { filename: string; content: Buffer }[];
+  attachments?: { filename: string; content: Buffer }[];
 }
 
 export type { EmailDataType };
