@@ -7,4 +7,5 @@ export * from './types/rss.type';
 export * from './types/channel-news-parser.type';
 export * from './types/email.type';
 export * from './types/web-page.type';
+export * from './types/quota.type';
 export * from './constants/index.constant';
