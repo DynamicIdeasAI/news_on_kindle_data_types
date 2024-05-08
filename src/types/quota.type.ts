@@ -3,8 +3,8 @@ import { BaseDataType } from '@dynamicideas/base-types';
 interface QuotaDataType extends BaseDataType {
   userId: string;
   channel: {
-    maxSubscriptionAmount: number;
-    currentSubscriptionAmount: number;
+    maxChannelSubscriptionAmount: number;
+    currentChannelSubscriptionAmount: number;
   };
   webPage: {
     maxSentWebPageAmountMonthly: number;
