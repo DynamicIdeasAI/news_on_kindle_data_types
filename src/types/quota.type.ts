@@ -4,11 +4,11 @@ interface QuotaDataType extends BaseDataType {
   userId: string;
   channel: {
     maxSubscriptionAmount: number;
-    currentSubscriptionCount: number;
+    currentSubscriptionAmount: number;
   };
   webPage: {
-    maxNewAmountMonthly: number;
-    sentWebPageCountInCurrentMonth: number;
+    maxSentWebPageAmountMonthly: number;
+    sentWebPageAmountInCurrentMonth: number;
   };
 }
 
