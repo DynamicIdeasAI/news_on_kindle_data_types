@@ -1,6 +1,6 @@
-import { BaseModelType } from '@dynamicideas/base-types';
+import { BaseDataType } from '@dynamicideas/base-types';
 
-interface QuotaDataType extends BaseModelType {
+interface QuotaDataType extends BaseDataType {
   channel: {
     maxSubscriptionAmount: number;
     currentSubscriptionCount: number;
