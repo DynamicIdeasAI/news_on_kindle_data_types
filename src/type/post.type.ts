@@ -7,6 +7,7 @@ interface PostDataType extends BaseModelType {
   title: string;
   content: string;
   summary?: string;
+  aiSummary?: string;
   publishedAt?: Date;
   authors?: string[];
 }
