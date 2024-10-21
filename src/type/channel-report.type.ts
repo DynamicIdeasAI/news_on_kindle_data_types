@@ -4,6 +4,7 @@ interface ChannelReportDataType extends BaseModelType {
   channelId: string;
   reportId: string;
   comment: string;
+  handled?: boolean;
 }
 
 export type { ChannelReportDataType };
