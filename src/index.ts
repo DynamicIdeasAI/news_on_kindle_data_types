@@ -1,6 +1,5 @@
 export * from './type/base.type';
 export * from './type/channel.type';
-export * from './type/channel-report.type';
 export * from './type/category.type';
 export * from './type/notification.type';
 export * from './type/post.type';
