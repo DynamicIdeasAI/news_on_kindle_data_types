@@ -1,6 +1,6 @@
 {
   "name": "@dynamicideas/news-on-kindle-data-types",
-  "version": "0.8.42",
+  "version": "0.8.50",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
