@@ -4,6 +4,7 @@ interface WebPageDataType extends BaseModelType {
   userId?: string;
   username: string;
   encodedUrl: string;
+  aiSummary?: string;
 }
 
 export type { WebPageDataType };
