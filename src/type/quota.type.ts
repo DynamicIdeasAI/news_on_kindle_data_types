@@ -1,4 +1,4 @@
-import { BaseDataType } from '@dynamicideas/base-types';
+import type { BaseDataType } from '@dynamicideas/base-types';
 
 interface QuotaDataType extends BaseDataType {
   userId: string;
