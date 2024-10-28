@@ -9,6 +9,8 @@ interface QuotaDataType extends BaseDataType {
   webPage: {
     maxSentWebPageAmountMonthly: number;
     sentWebPageAmountInCurrentMonth: number;
+    maxAISummarizedWebPageAmountMonthly: number;
+    aiSummarizedWebPageAmountInCurrentMonth: number;
   };
 }
 
