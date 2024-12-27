@@ -44,7 +44,7 @@
     ]
   },
   "dependencies": {
-    "@dynamicideas/base-types": "^0.8.26"
+    "@dynamicideas/base-types": "^0.8.27"
   },
   "devDependencies": {
     "@commitlint/cli": "19.6.1",
